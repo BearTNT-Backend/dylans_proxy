@@ -48,7 +48,7 @@ module.exports = {
   },
   service2: {
     api: ['/reservation/calendar', '/reservation/reservationCost'],
-    url: 'http://18.219.68.43:3001',
+    url: 'http://http://54.245.192.202:3001/',
     bundle: 'bundle.js',
   },
   service3: {
