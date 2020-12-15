@@ -48,11 +48,7 @@ module.exports = {
   },
   service2: {
     api: ['/reservation/calendar', '/listing/:id'],
-<<<<<<< HEAD
     url: 'http://54.245.192.202:3001',
-=======
-    url: 'http://http://54.245.192.202:3001/',
->>>>>>> 28bbdba34523be14de43712f82c7abb110817a18
     bundle: 'bundle.js',
   },
   service3: {
