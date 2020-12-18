@@ -48,12 +48,12 @@ module.exports = {
   },
   service2: {
     api: ['/reservation/calendar', '/listing/:id'],
-    url: 'http://54.245.192.202:3001',
+    url: 'http://54.201.114.86',
     bundle: 'bundle.js',
   },
   service3: {
     api: ['/reviews-module/reviews/:id', '/reviews-module/ratings/:id'],
-    url: 'http://18.223.97.190:3006',
+    url: 'http://35.160.52.98',
     bundle: 'bundle.js',
   },
   service4: {

@@ -6,6 +6,10 @@ const {
 
 const router = Router();
 
+//router.get('/loaderio-bb01281c979c276e3230dd2b69ce318d.txt', (res, req) => {
+//	res.send('loaderio-bb01281c979c276e3230dd2b69ce318d');
+//});
+
 router.use('/service1.js', createProxyMiddleware({
   target: service1.url,
   pathRewrite: {
